@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+}
+
+body {
+    /* background: rgba(255, 255, 255, 0.5);
+    background-position: 50%, 50%;
+    background-image: url("/img/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* NAVBAR*/
+
+#topnav {
+    height: 25px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    background-color: rgb(219, 219, 219);
+    width: 400px;
+    overflow: hidden;
+}
+
+#topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#topnav li {
+    display: block;
+    width: 100px;
+    float: left;
+}
+
+#topnav a {
+    text-decoration: none;
+    /* float: left; */
+    color: #110f0f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#topnav a:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+#navbar li {}
+
+.active {
+    background-color: rgb(185, 185, 185);
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+/* MAIN */
+
+#main {
+    margin-top: 150px;
+}
+
+.AdobeButton {
+    border-radius: 9px;
+    background-image: -moz-linear-gradient( -90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(244, 148, 148) 4%, rgb(233, 40, 40) 7%, rgb(233, 40, 40) 24%, rgb(196, 0, 0) 56%, rgb(145, 0, 0) 68%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(244, 148, 148) 4%, rgb(233, 40, 40) 7%, rgb(233, 40, 40) 24%, rgb(196, 0, 0) 56%, rgb(145, 0, 0) 68%);
+    background-image: -ms-linear-gradient( -90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(244, 148, 148) 4%, rgb(233, 40, 40) 7%, rgb(233, 40, 40) 24%, rgb(196, 0, 0) 56%, rgb(145, 0, 0) 68%);
+    position: absolute;
+    /* left: 1122px;
+    /* top: 505px; */
+    width: 200px;
+    height: 50px;
+    /* z-index: 7; */
+}
