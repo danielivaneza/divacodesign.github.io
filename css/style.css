@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgb(172, 172, 172);
 }
 
-#navbar li {}
+/* #navbar li {} */
 
 .active {
     background-color: rgb(185, 185, 185);
