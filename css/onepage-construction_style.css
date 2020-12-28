@@ -33,19 +33,41 @@ img {
 
 .info-container {
   margin-top: 100px;
-  /* width: 315px; */
-  margin-left: auto;
-  margin-right: auto;
-  
 }
 
-.info-headline{
-  width: 50% 50%;
+.info-headline {
+  font-size: 32px;
+  font-weight: 700;
   text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
-.info-headline-text{
+.info-headline-text {
+  font-size: 19px;
+  font-weight: 500;
   text-align: center;
+  margin-top: 8px;
+  padding-bottom: 0px;
+}
 
-  font-size: 18px;
+/* cta-btn -contact */
+
+.cta-btn-container {
+  margin-top: 40px;
+  justify-content: center;
+  display: flex;
+}
+
+.cta-btn {
+  font-family: dosis;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+
+  width: 250px;
+  height: 40px;
+  background-color: #00d86b;
+  border-color: #00d86b;
+  border-radius: 20px;
 }
