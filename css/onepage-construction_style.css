@@ -1,6 +1,51 @@
-body{
-    font-family: dosis, sans-serif;
+html {
+  height: 100%;
+}
 
+/* website background */
 
-    background-image: url("img/one-page_ConstructionPage_rechtes-bild.jpg");
+body {
+  font-size: 14px;
+  font-family: dosis, sans-serif;
+  height: 100%;
+  background-image: url("/img/one-page_ConstructionPage_rechtes-bild.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* head logo */
+
+.logo-container {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  padding-bottom: 8px;
+  border-bottom: 8px solid #f0f0f0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* headline and infotext */
+
+.info-container {
+  margin-top: 100px;
+  /* width: 315px; */
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.info-headline{
+  width: 50% 50%;
+  text-align: center;
+}
+
+.info-headline-text{
+  text-align: center;
+
+  font-size: 18px;
 }
