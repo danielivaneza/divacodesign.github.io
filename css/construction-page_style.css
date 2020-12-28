@@ -8,7 +8,7 @@ body {
   font-size: 14px;
   font-family: dosis, sans-serif;
   height: 100%;
-  background-image: url("divacodesign.github.io/img/ConstructionPage_rechtes-bild.jpg");
+  background-image: url("../img/ConstructionPage_rechtes-bild.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
