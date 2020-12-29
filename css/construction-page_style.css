@@ -20,7 +20,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 250px;
-  padding-bottom: 8px;
+  padding-bottom: 6px;
   border-bottom: 8px solid #f0f0f0;
 }
 
@@ -32,7 +32,7 @@ img {
 /* headline and infotext */
 
 .info-container {
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 .info-headline {
@@ -55,8 +55,7 @@ img {
 
 .cta-btn-container {
   margin-top: 40px;
-  justify-content: center;
-  display: flex;
+  text-align: center;
 }
 
 .cta-btn {
@@ -64,10 +63,59 @@ img {
   font-weight: 600;
   font-size: 20px;
   color: white;
-
+  display: inline-block;
   width: 250px;
-  height: 40px;
+  padding-top: 9px;
+  padding-bottom: 9px;
   background-color: #00d86b;
   border-color: #00d86b;
   border-radius: 20px;
+  text-decoration: none;
+}
+
+.cta-btn:hover {
+  background-color: #00ce67;
+}
+
+/* service info */
+
+.service-info {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.service {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.address {
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+/* countdown */
+
+.main-content {
+  text-align: center;
+}
+
+.countdown {
+  color: white;
+  display: inline-block;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.countdown .date {
+  font-size: 70px;
+  margin-bottom: -10px;
+}
+
+.countdown .date-description {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1.5;
 }
