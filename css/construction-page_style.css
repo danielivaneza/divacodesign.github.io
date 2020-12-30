@@ -11,12 +11,13 @@ body {
   background-image: url("../img/ConstructionPage_rechtes-bild.jpg");
   background-size: cover;
   background-position: 50% 50%;
+  margin: 0px;
 }
 
 /* head logo */
 
 .logo-container {
-  margin-top: 40px;
+  padding-top: 40px;
   margin-left: auto;
   margin-right: auto;
   width: 250px;
