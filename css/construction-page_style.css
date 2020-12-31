@@ -95,6 +95,7 @@ img {
 .address {
   font-size: 13px;
   margin-top: 0px;
+  font-style: normal;
 }
 
 /* countdown */
@@ -113,6 +114,7 @@ img {
 .countdown .date {
   font-size: 70px;
   margin-bottom: -10px;
+  display: block;
 }
 
 .countdown .date-description {
