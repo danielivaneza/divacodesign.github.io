@@ -1,17 +1,18 @@
 html {
   height: 100%;
+  font-size: 1rem;
 }
 
-/* website background */
+/* body- / website-background */
 
 body {
-  font-size: 14px;
   font-family: dosis, sans-serif;
   height: 100%;
   background-image: url("../img/ConstructionPage_rechtes-bild.jpg");
   background-size: cover;
   background-position: 50% 50%;
   margin: 0px;
+  text-align: center;
 }
 
 /* head logo */
@@ -20,9 +21,8 @@ body {
   padding-top: 40px;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
-  padding-bottom: 6px;
-  border-bottom: 8px solid #f0f0f0;
+  width: 16rem;
+  padding-bottom: 10px;
 }
 
 img {
@@ -30,24 +30,32 @@ img {
   height: 100%;
 }
 
+.extern::after {
+  content: "";
+  width: 100%;
+  height: 0.4rem;
+  background-color: #f0f0f0;
+  margin-top: 0.2rem;
+  display: block;
+}
+
 /* headline and infotext */
 
 .info-container {
-  margin-top: 75px;
+  margin-top: 40px;
+  display: inline-block;
 }
 
 .info-headline {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
-  text-align: center;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
 
 .info-headline-text {
-  font-size: 19px;
+  font-size: 1rem;
   font-weight: 500;
-  text-align: center;
   margin-top: 8px;
   padding-bottom: 0px;
 }
@@ -57,20 +65,21 @@ img {
 .cta-btn-container {
   margin-top: 40px;
   text-align: center;
+  display: inline-block;
 }
 
 .cta-btn {
   font-family: dosis;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1rem;
   color: white;
   display: inline-block;
-  width: 250px;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  width: 16rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
   background-color: #00d86b;
   border-color: #00d86b;
-  border-radius: 20px;
+  border-radius: 1.2rem;
   text-decoration: none;
 }
 
@@ -80,20 +89,20 @@ img {
 
 /* service info */
 
-.service-info {
+.service-info-container {
   margin-top: 30px;
-  text-align: center;
+  display: inline-block;
 }
 
 .service {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 0px;
 }
 
 .address {
-  font-size: 13px;
+  font-size: 1rem;
   margin-top: 0px;
   font-style: normal;
 }
@@ -110,17 +119,73 @@ img {
   text-align: justify;
   text-align-last: justify;
   margin-top: 25px;
-
 }
 
 .countdown .date {
-  font-size: 70px;
+  font-size: 4rem;
   margin-bottom: -10px;
-  display: block;
 }
 
 .countdown .date-description {
-  font-size: 25px;
+  font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 1.5;
+}
+
+/* Desktopversion-styles */
+
+@media (min-width: 750px) {
+  html {
+    font-size: 1.5rem;
+  }
+  body {
+    background: none;
+  }
+  .page {
+    display: flex;
+    height: 100%;
+  }
+  .main-content, .countdown-container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .main-content {
+    flex: 1 0 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .logo-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 10rem;
+  }
+  .extern::after {
+    /* keyvisual-border from Logo */
+    content: "";
+    width: 100%;
+    height: 0.4rem;
+    background-color: transparent;
+    margin-top: 0.2rem;
+    display: block;
+    background: linear-gradient(to right, #008fd1, #00d57d);
+    flex: 1 0 0px;
+  }
+  .info-arrow-container {
+    display: block;
+    background-image: url(/img/icons-round-arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 14rem;
+  }
+  .countdown-container {
+    flex: 1 0 0px;
+    background-image: url("../img/ConstructionPage_rechtes-bild.jpg");
+    /* background-repeat: no-repeat; */
+  }
+  .countdown-container .countdown {
+    margin-top: 0rem;
+    padding-top: 0rem;
+  }
 }
