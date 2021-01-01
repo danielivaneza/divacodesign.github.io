@@ -127,17 +127,17 @@ img {
 }
 
 .countdown .date-description {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
-  letter-spacing: 1.5;
+  letter-spacing: 0.5px;
 }
 
 /* Desktopversion-styles */
 
 @media (min-width: 750px) {
-  html {
+  /* html {
     font-size: 1.5rem;
-  }
+  } */
   body {
     background: none;
   }
@@ -145,7 +145,7 @@ img {
     display: flex;
     height: 100%;
   }
-  .main-content, .countdown-container {
+  .main-content, .section-container {
     padding-left: 25px;
     padding-right: 25px;
   }
@@ -173,19 +173,25 @@ img {
     flex: 1 0 0px;
   }
   .info-arrow-container {
-    display: block;
     background-image: url(/img/icons-round-arrow-right.svg);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 14rem;
+    background-size: 19rem;
   }
-  .countdown-container {
+  .section-container {
     flex: 1 0 0px;
     background-image: url("../img/ConstructionPage_rechtes-bild.jpg");
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
   }
-  .countdown-container .countdown {
+  .countdown-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+  }
+  .section-container .countdown {
     margin-top: 0rem;
     padding-top: 0rem;
   }
+  
 }
