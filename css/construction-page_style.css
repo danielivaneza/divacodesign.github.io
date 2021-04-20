@@ -8,7 +8,7 @@ html {
 body {
   font-family: dosis, sans-serif;
   height: 100%;
-  background-image: url("../img/ConstructionPage_rechtes-bild.jpg");
+  background-image: url("../img/ConstructionPage_laptop_right-pic.jpg");
   background-size: cover;
   background-position: 50% 50%;
   margin: 0px;
@@ -142,7 +142,8 @@ img {
     display: flex;
     height: 100%;
   }
-  .main-content, .section-container {
+  .main-content,
+  .section-container {
     padding-left: 25px;
     padding-right: 25px;
   }
@@ -164,7 +165,7 @@ img {
     width: 10rem;
   }
   .extern::after {
-    /* keyvisual-border from Logo */
+    /* visual-border from Logo */
     content: "";
     width: 100%;
     height: 0.4rem;
@@ -180,8 +181,14 @@ img {
   }
   .section-container {
     flex: 1 0 0px;
-    background-image: url("../img/ConstructionPage_rechtes-bild.jpg");
+    background-image: url("../img/ConstructionPage_laptop_right-pic.jpg");
     background-repeat: no-repeat;
+    /* p */
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0px;
+    text-align: center;
   }
   .countdown-container {
     display: flex;
@@ -219,8 +226,26 @@ img {
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1750px) {
   html {
     font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1900px) {
+  html {
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 2200px) {
+  html {
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 2400px) {
+  html {
+    font-size: 2.4rem;
   }
 }
