@@ -1,2 +1,2 @@
 # Hello my name's Daniel Ivaneza!
-# I'm a Web-Developer and Mobile Software Engineer
+# I'm a Web-Developer
